@@ -5,7 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    min-height: 100vh;
+    background: #373737;
+}
+h3{
+    position: relative;
+    font-size: 20px;
+    color: #f9f9f9;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+#form{
+    position: relative;
+}
+#form #email{
+    width: 300px;
+    background: #292929;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: #fff;
+    font-style: 18px;
+}
+#form #inputbox{
+    position: relative;
+}
+#text{
+    display: block;
+    color: #000;
+    font-weight: 500i;
+    font-style: italic;
+    padding: 5px;
+
+}
+
+
+    </style>
 </head>
 <body>
    <div>
